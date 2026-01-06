@@ -6,6 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:pages": "ng build --configuration production --base-href /ecommerce-tailwind-sass-new/ && copy dist\\ecommerce-tailwind-sass-new\\index.html dist\\ecommerce-tailwind-sass-new\\404.html",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
